@@ -137,6 +137,7 @@ section {
 .wrap-footer div {
     display: inline-block;
     text-align: right;
+    padding-right: 1rem;
 }
 
 .wrap-footer ul {
