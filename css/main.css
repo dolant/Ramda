@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 24px;
+}
+
+main {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+header h1 {
+    font-size: 3.3rem;
+    text-align: left;
+}
+
+header h1 span {
+    color: rgb(83, 203, 253);
+}
+
+.nav {
+    background-color: #35444F;
+    text-align: center;
+}
+
+.nav div {
+    display: inline-block;
+    border-right: 1px solid #35444F;
+    border-left: 1px solid #35444F;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: .9rem;
+}
+
+.nav div:hover {
+    background-color: #222F3A;
+    transition: 0.7s;
+}
+.nav div:hover {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.nav div:first-child {
+    margin-left: 6rem;
+}
+
+.col {
+    display: inline-block;
+    width: 25%;
+    color: #35444F;
+    border: 1px solid black;
+    opacity: 1;
+    font-size: 1.25rem;
+    vertical-align: top;
+}
+
+.content {
+    display: inline-block;
+    width: 70%;
+    margin-left: 4%;
+}
+
+.content p {
+    font-size: 0.75rem;
+    padding: 0rem 1rem;
+}
+
+.wrap-img {
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.wrap-img img {
+    width: 60%;
+    padding: 4rem;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+.col ul {
+    padding-left: 0;
+}
+
+.col li {
+    list-style-type: none;
+}
+
+.col a {
+    display: inline-block;
+    text-decoration: none;
+    color: #495863;
+    padding: 1rem;
+    width: 100%;
+}
+
+.col a:hover {
+    background-color: #DBDBDB;
+    transition: 0.7s;
+    padding-left: 2rem;
+}
+
+.wrap-footer {
+    width: 100%;
+    background-color: #63696E;
+    margin-top: 1.5rem;
+    text-align: end;
+}
+
+.wrap-footer a {
+    text-decoration: none;
+    color: #0C1927;
+}
+
+.wrap-footer a:hover {
+    color: rgb(70, 166, 206);;
+    text-decoration: revert;
+    transition: 0.2s;
+}
+
+.wrap-footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.wrap-footer div {
+    display: inline-block;
+    text-align: right;
+}
+
+.wrap-footer ul {
+    display: inline-block;
+    margin-right: 22%;
+}
